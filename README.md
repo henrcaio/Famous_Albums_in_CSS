@@ -5,7 +5,7 @@ Recreating famous albums artwork with "css-only" files.
 
 #### If you have suggestions or better design, send me a message!
 ###### I know it's cliché but drop a star:star: if you don't mind! (it would be of GREAT help!)
-###### ...and if you're feeling generous, buy me a coffee!
+###### ...and if you're felling generous, <a href="https://www.buymeacoffee.com/henrcaio">buy me a coffee!:coffee:</a>
 
 ## Albums published
 
