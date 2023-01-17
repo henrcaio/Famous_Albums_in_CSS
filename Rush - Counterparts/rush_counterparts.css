@@ -1,0 +1,221 @@
+body{
+  background-color: #2a65a7;
+  height: min-content;
+}
+
+.cover{
+  background-color: #2a65a7;
+  border: 2px solid #0e0604;
+  height: 150mm;
+  width: 150mm;
+  position: relative;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0.5px 1px 0.75px 0.25px goldenrod inset,
+              0px -0.5px 0.5px 0.5px #a08a58 inset,
+              -1px 0.5px 4px 1px #964900;
+}
+
+h1{
+  font-size: 1.75em;
+  font-weight: 100;
+  font-family:sans-serif;
+  color: #a08a58;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.container {
+  background-color: #0e0604;
+  border: 0.15em solid #a08a58;
+  margin: auto;
+  height: 90mm;
+  width: 55mm;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bolt, .bolt-tip{
+  background-color: #0e0604;
+  border: 0.15em solid #a08a58;
+  border-radius: 27px;
+  height: 35mm;
+  width: 7.5mm;
+  position: relative;
+  margin-top: 4em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bolt-tip{
+  border-radius: 100%;
+  height: 5mm;
+  width: 7.5mm;
+  margin-top: -24px;
+}
+
+.line{
+  background-color: transparent;
+  border-color: #a08a58;
+  border-width: 0 0.15em 0 0;
+  border-style: dashed;
+  height: 6.5em;
+  width: 0px;
+  position: relative;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nut-top, .nut-bottom, .inside{
+  background-color: #0e0604;
+  border: 0.2em solid #a08a58;
+  border-radius: 100%;
+  height: 9mm;
+  width: 19mm;
+  position: relative;
+  margin-top: -40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nut-top{
+  height: 13.4mm;
+  width: 20.5mm;
+  margin-top: -80px;
+}
+
+.inside{
+  height: 3.5mm;
+  width: 8mm;
+  margin-top: -30px;
+}
+
+.nut-1, .nut-2, .nut-3{
+  background-color: #0e0604;
+  border: 0.2em solid #a08a58;
+  border-radius: 20% 10% 30% 30%;
+  height: 3.3mm;
+  width: 6.2mm;
+  position: relative;
+  margin-top: -44px;
+  margin-left: auto;
+  margin-right: auto;
+  transform: perspective(10mm) rotateX(-25deg) rotateY(0deg);
+}
+
+.nut-2{
+  border-radius: 20% 10% 10% 30%;
+  height: 4.2mm;
+  width: 5mm;
+  margin-top: -17px;
+  margin-left: 65px;
+  transform: perspective(10mm) rotateX(45deg) rotateY(-25deg);
+}
+
+.nut-3{
+  border-radius: 10% 20% 30% 20%;
+  height: 4.2mm;
+  width: 4.8mm;
+  margin-top: -23px;
+  margin-right: 66px;
+  transform: perspective(10mm) rotateX(45deg) rotateY(25deg);
+}
+
+.thread{
+  background-color: transparent;
+  border: solid #a08a58;
+  border-width: 0 3px 0 3px;
+  border-radius: 30%;
+  height: 4mm;
+  width: 7mm;
+  position: relative;
+  margin-top: 0px;
+  margin-left: 88px;
+}
+
+
+.triangle-top-right {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 130px;
+  border: 0 solid red;
+  border-left-width: 30px;
+  border-top-width: 30px;
+  border-top-color: transparent;
+}
+.triangle-bottom-right {
+  position: absolute;
+  margin-top: 59px;
+  margin-left: 130px;
+  border: 0 solid red;
+  border-left-width: 30px;
+  border-top-width: 30px;
+  border-top-color: transparent;
+  transform: rotate(90deg);
+}
+
+.triangle-top-left {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 45px;
+  border: 0 solid red;
+  border-left-width: 30px;
+  border-top-width: 30px;
+  border-top-color: transparent;
+  transform: rotate(-90deg);
+}
+.triangle-bottom-left {
+  position: absolute;
+  margin-top: 59px;
+  margin-left: 45px;
+  border: 0 solid red;
+  border-left-width: 30px;
+  border-top-width: 30px;
+  border-top-color: transparent;
+  transform: rotate(180deg);
+}
+
+.square {
+  border: 0.2em solid #a08a58;
+  position: absolute;
+  margin-top: 32px;
+  margin-left: 75px;
+  height: 50px;
+  width: 10px;
+  border-right-color: transparent;
+  border-left-color: transparent;
+}
+
+
+/*
+for nut faces try:
+- perspective
+ >.shape {
+  background: black;
+  margin: 100px;
+  height: 200px;
+  width: 200px;
+  transform: perspective(20px) rotateX(-2deg) rotateY(-1deg); /* make perspective roughly 10% of height and width 
+}
+
+- rectangle and triangle together
+  <div class="triangle"></div>
+  <div class="trapezoid"></div>
+ 
+  >.triangle {
+  border: 0 solid red;
+  border-left-width: 500px;
+  border-top-width: 30px;
+  border-top-color: transparent;
+}
+.trapezoid {
+  border: 0 solid red;
+  width: 500px;
+  border-bottom-width: 150px;
+  border-right-width: 30px;
+  border-right-color: transparent;
+} */

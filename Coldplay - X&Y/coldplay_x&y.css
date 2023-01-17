@@ -1,0 +1,203 @@
+@font-face {
+  font-family: selectedfont;
+  src: url(/OPTIColumna-Solid.otf);
+}
+
+body{
+  background-color: #00013A;
+}
+
+.cover{
+  background-color: #00013A;
+  border: 2px solid hsl(12, 56%, 4%);
+  height: 150mm;
+  width: 150mm;
+  position: relative;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0.5px 1px 0.75px 0.25px goldenrod inset,
+              0px -0.5px 0.5px 0.5px #a08a58 inset,
+              -1px 0.5px 4px 1px #964900;
+}
+
+h1{
+  font-family: selectedfont;
+  font-size: 14pt;
+  color: #028947;
+  position: absolute;
+  margin-top: 35%;
+  margin-left: -10%;
+  transform: rotate(90deg);
+}
+
+.line1-rect{
+  background-color: #010005;
+  height: 5mm;
+  width: 10mm;
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 45%;
+}
+
+.line1-square{
+  background-color: #010005;
+  height: 5mm;
+  width: 5mm;
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 55%;
+}
+
+.line2-rect{
+  background-color: #8C8C8C;
+  height: 5mm;
+  width: 10mm;
+  position: absolute;
+  margin-top: 38%;
+  margin-left: 45%;
+}
+
+.line2-square{
+  background-color: #8C8C8C;
+  height: 5mm;
+  width: 5mm;
+  position: absolute;
+  margin-top: 38%;
+  margin-left: 55%;
+}
+
+.line3-square{
+  background-color: #8C8C8C;
+  height: 5mm;
+  width: 5mm;
+  position: absolute;
+  margin-top: 43%;
+  margin-left: 48%;
+}
+
+.line4-square{
+  background-color: #FFFFFF;
+  height: 5mm;
+  width: 5mm;
+  position: absolute;
+  margin-top: 46%;
+  margin-left: 48%;
+}
+
+.line5-dash1{
+  background-color: #F12C23;
+  height: 1mm;
+  width: 3mm;
+  position: absolute;
+  margin-top: 51%;
+  margin-left: 45%;
+}
+
+.line5-dash2{
+  background-color: #F12C23;
+  height: 1mm;
+  width: 9mm;
+  position: absolute;
+  margin-top: 51%;
+  margin-left: 49%;
+}
+
+.line5-dash3{
+  background-color: #F12C23;
+  height: 1mm;
+  width: 3mm;
+  position: absolute;
+  margin-top: 51%;
+  margin-left: 57%;
+}
+
+.line6-square1{
+  background-color: #F12C23;
+  height: 5mm;
+  width: 5mm;
+  position: absolute;
+  margin-top: 53%;
+  margin-left: 45%;
+}
+
+.line6-square2{
+  background-color: #F12C23;
+  height: 5mm;
+  width: 5mm;
+  position: absolute;
+  margin-top: 53%;
+  margin-left: 55%;
+}
+
+.line7-square1{
+  background-color: #F4792C;
+  height: 5mm;
+  width: 5mm;
+  position: absolute;
+  margin-top: 56%;
+  margin-left: 45%;
+}
+
+.line7-square2{
+  background-color: #561E79;
+  height: 5mm;
+  width: 5mm;
+  position: absolute;
+  margin-top: 56%;
+  margin-left: 55%;
+}
+
+.line8-square{
+  background-color: #F4792C;
+  height: 5mm;
+  width: 5mm;
+  position: absolute;
+  margin-top: 61%;
+  margin-left: 45%;
+}
+
+.line8-rect{
+  background-color: #FFD101;
+  height: 5mm;
+  width: 10mm;
+  position: absolute;
+  margin-top: 61%;
+  margin-left: 48%;
+}
+
+.line9-rect{
+  background-color: #008943;
+  height: 5mm;
+  width: 14.5mm;
+  position: absolute;
+  margin-top: 64%;
+  margin-left: 45%;
+}
+
+.line10-rect{
+  background-color: #008943;
+  height: 5mm;
+  width: 15mm;
+  position: absolute;
+  margin-top: 69%;
+  margin-left: 45%;
+}
+
+.line10-square{
+  background-color: #4D3082;
+  height: 5mm;
+  width: 5mm;
+  position: absolute;
+  margin-top: 69%;
+  margin-left: 55%;
+}
+
+.line11{
+  background-color: #005DAD;
+  height: 5mm;
+  width: 20mm;
+  position: absolute;
+  margin-top: 72%;
+  margin-left: 45%;
+}

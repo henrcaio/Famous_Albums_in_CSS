@@ -1,0 +1,130 @@
+body{
+  background-color: #000000;
+}
+
+.cover{
+  background-color: transparent;
+  border: 2px solid #FFFFFF;
+  height: 150mm;
+  width: 150mm;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0.5px 1px 0.75px 0.25px goldenrod inset,
+              0px -0.5px 0.5px 0.5px #a08a58 inset,
+              -1px 0.5px 4px 1px #964900;
+}
+
+.triangle1{
+  width: 0;
+  height: 0;
+  border: 100px solid transparent;
+  border-top: 0;
+  border-bottom: 200px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.triangle2{
+  width: 0;
+  height: 0;
+  border: 90px solid transparent;
+  border-top: 0;
+  border-bottom: 190px solid #000000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.light{
+  background-color: white;
+  border: 3px solid white;
+  height: 0;
+  width: 255px;
+  position: relative;
+  top: 340px;
+  left: 385px;
+  transform: rotate(-15deg);
+}
+
+.reflection{
+  background-color: white;
+  border: 1px solid transparent;
+  height: 0;
+  width: 11px;
+  position: absolute;
+  top: 320px;
+  left: 637px;
+  transform: perspective(5px) rotateY(-45deg) rotate(-1deg);
+  box-shadow: -1px 0.5px 4px 1px #964900;
+}
+
+.red{
+  background-color: red;
+  border: 3px solid red;
+  height: 2px;
+  width: 250px;
+  position: absolute;
+  top: 46%;
+  left: 45%;
+  transform: perspective(80px) rotatey(-45deg) rotate(6deg);
+}
+
+.orange{
+  background-color: orangered;
+  border: 3px solid orangered;
+  height: 2px;
+  width: 250px;
+  position: absolute;
+  top: 47%;
+  left: 45%;
+  transform: perspective(80px) rotatey(-45deg) rotate(8deg);
+}
+
+.yellow{
+  background-color: yellow;
+  border: 3px solid yellow;
+  height: 2px;
+  width: 250px;
+  position: absolute;
+  top: 48%;
+  left: 45%;
+  transform: perspective(80px) rotatey(-45deg) rotate(10deg);
+}
+
+.green{
+  background-color: green;
+  border: 3px solid green;
+  height: 2px;
+  width: 250px;
+  position: absolute;
+  top: 49%;
+  left: 45%;
+  transform: perspective(80px) rotatey(-45deg) rotate(12deg);
+}
+
+.blue{
+  background-color: lightskyblue;
+  border: 3px solid lightskyblue;
+  height: 2px;
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: perspective(80px) rotatey(-45deg) rotate(14deg);
+}
+
+.purple{
+  background-color: purple;
+  border: 3px solid purple;
+  height: 2px;
+  width: 250px;
+  position: absolute;
+  top: 51%;
+  left: 45%;
+  transform: perspective(80px) rotatey(-45deg) rotate(16deg);
+}
