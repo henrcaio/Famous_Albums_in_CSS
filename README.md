@@ -9,8 +9,6 @@ Recreating famous albums artwork with "css-only" files.
 
 ## Albums published
 
-- [Pink Floyd - The Dark Side Of The Moon](Famous_Albums_in_CSS/Pink%20Floyd%20-%20Dark%20Side%20of%20the%20Moon)
+- [Pink Floyd - The Dark Side Of The Moon](https://github.com/henrcaio/Famous_Albums_in_CSS/tree/main/Pink%20Floyd%20-%20Dark%20Side%20of%20the%20Moon)
 
-- Coldplay - X&Y
-
-- 
+- [Coldplay - X&Y](https://github.com/henrcaio/Famous_Albums_in_CSS/tree/main/Coldplay%20-%20X%26Y)
